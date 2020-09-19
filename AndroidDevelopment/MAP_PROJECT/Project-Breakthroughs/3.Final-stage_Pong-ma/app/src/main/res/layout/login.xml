@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuback"
+    tools:context="com.multiPingPong.pong.StartActivity"
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Players Login Page"
+       android:gravity="center"
+       android:layout_marginTop="300dp"
+       android:id="@+id/one"
+       android:textColor="@color/lightBlack"
+       android:fontFamily="@font/alien"
+       android:background="@android:color/transparent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:gravity="center"
+        android:id="@+id/two"
+        android:layout_below="@id/one"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/lightBlack"
+        android:background="@android:color/transparent"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:id="@+id/three"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/two"
+        android:textColor="@color/lightBlack"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login"
+        android:id="@+id/four"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/three"
+        android:textColor="@color/lightBlack"
+        android:fontFamily="@font/alien"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/four"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

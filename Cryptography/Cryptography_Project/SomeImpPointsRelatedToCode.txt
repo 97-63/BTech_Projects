@@ -1,0 +1,31 @@
+PIL:Python Imaging Library is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats
+
+base64: Its basically a form of encoding where it encodes 3 bytes of data at one time. 2 power6 =64 which means 6 bits of data make one ASCII character .In base64 encodeing there are 64 ASCII characters. This encoding is used to safely transfer data over internet.eg mails.eg HEY is first converted to binary form. Then there are 24 bits but base64 encoder takes 6 bit of binary data and then convert .So it will convert 4 -6bits of data to 4 ASCII characters. So 3 bytes of HEY will be converted to 
+J!O$.
+https://www.youtube.com/watch?v=8qkxeZmKmOY
+ 
+binascii:- The binascii module contains a number of methods to convert between binary and various ASCII-encoded binary representations. Normally, you will not use these functions directly but use wrapper modules like uu, base64, or binhex instead. The binascii module contains low-level functions written in C for greater speed that are used by the higher-level modules
+
+os:Image result for os in pythondata-flair.training
+The OS module in python provides functions for interacting with the operating system. OS, comes under Python's standard utility modules. This module provides a portable way of using operating system dependent functionality. ... path* modules include many functions to interact with the file system.
+
+random.getrandbits(1):-means will return a 1 bit integer eg:1
+
+random.getrandbits(2):-means will return a 1 bit integer eg:3
+
+linalg.norm(v):-returns the euclidean distance of that vector
+
+seek():-Python file method seek() sets the file's current position at the offset. The whence argument is optional and defaults to 0, which means absolute file positioning, other values are 1 which means seek relative to the current position and 2 means seek relative to the file's end. There is no return value 
+
+"----------------The Difference Between Unicode and UTF-8-------------"
+Unicode is a character set. UTF-8 is encoding.
+
+Unicode is a list of characters with unique decimal numbers (code points). A = 65, B = 66, C = 67, ....
+
+This list of decimal numbers represent the string "hello": 104 101 108 108 111
+
+Encoding is how these numbers are translated into binary numbers to be stored in a computer:
+
+UTF-8 encoding will store "hello" like this (binary): 01101000 01100101 01101100 01101100  01101111
+
+Encoding translates numbers into binary. Character sets translates characters to numbers.

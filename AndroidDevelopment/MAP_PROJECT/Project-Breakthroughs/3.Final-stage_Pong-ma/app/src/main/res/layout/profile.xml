@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:textSize="26dp"
+        android:id="@+id/one"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email-Id"
+        android:id="@+id/two"
+        android:textSize="26dp"
+        android:layout_below="@id/one"/>
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/two"
+        android:layout_marginTop="93dp"
+        android:layout_marginStart="60dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/three"
+        android:layout_marginStart="80dp"
+
+        android:id="@+id/four"
+        android:text="UpdateDet"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/four"
+        android:layout_below="@id/three"
+        android:layout_marginTop="30dp"
+        android:id="@+id/five"
+        android:text="ProfilePic"
+        android:layout_marginStart="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+
+</RelativeLayout>

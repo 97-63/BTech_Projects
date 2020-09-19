@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375714032486",
+    "firebase_url": "https://multipingpong.firebaseio.com",
+    "project_id": "multipingpong",
+    "storage_bucket": "multipingpong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375714032486:android:d5088a8d959d0986be76a7",
+        "android_client_info": {
+          "package_name": "com.yhr.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375714032486-hs7up3stfvam8tqtj0cjhmafc207b11g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yhr.game",
+            "certificate_hash": "9fef79d8cc04da728429bc9ba2dd68c801551f17"
+          }
+        },
+        {
+          "client_id": "375714032486-24ngrrp5c3bgupolfmici9g0iv21vai5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7BnH8bZ2vA53fv5LDNxo5zVTMfNzsK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375714032486-24ngrrp5c3bgupolfmici9g0iv21vai5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

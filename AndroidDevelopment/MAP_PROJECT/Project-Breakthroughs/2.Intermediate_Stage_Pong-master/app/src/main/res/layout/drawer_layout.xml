@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_below="@+id/drawer_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:weightSum="1.5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/primary_material_light"
+        app:headerLayout="@layout/drawer_header"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/header_height">
+
+            <TextView
+                android:id="@+id/quit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/content_areas"
+                android:fontFamily="@font/alien"
+                android:text="Quit"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/restart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quit"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/content_areas"
+                android:fontFamily="@font/alien"
+                android:text="Restart"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/restart"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/content_areas"
+                android:fontFamily="@font/alien"
+                android:text="Help"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+</LinearLayout>
